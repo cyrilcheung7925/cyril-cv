@@ -1,0 +1,89 @@
+{
+  "name": "Cheung Ming Yin, Cyril",
+  "title": "IT Programmer",
+  "contact": {
+    "phone": "9170 4590",
+    "email": "cyril7925@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/cyrilcheungmingyin/",
+    "location": "Hong Kong"
+  },
+  "shortSummary": "IT Programmer with 5+ years experience building scalable applications. Expert in Java, JavaScript, and TypeScript.",
+  "summary": "Innovative IT Programmer with 5+ years of experience developing scalable applications and optimizing system performance. Proficient in Java, Javascript and TypeScript, with a strong background in agile methodologies. Passionate about solving complex problems and continually learning new technologies.",
+  "technicalSkills": {
+    "programmingLanguages": [
+      "Java",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "CSS (SASS, SCSS)",
+      "Shell Scripting",
+      "C/C++"
+    ],
+    "frameworksLibraries": [
+      "ReactJS",
+      "Angular",
+      "Node.js",
+      "Java Spring Boot"
+    ],
+    "webServer": [
+      "Tomcat",
+      "Apache",
+      "ExpressJS"
+    ],
+    "toolsPlatforms": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle Database"
+    ],
+    "other": [
+      "API Development",
+      "RESTful/GraphQL Services",
+      "Microservices Architecture"
+    ]
+  },
+  "experience": [
+    {
+      "jobTitle": "Software Programmer",
+      "company": "Crypto.com",
+      "duration": "12/2020 – 07/2022",
+      "description": [
+        "Led development of NFT Marketplace and Tax Projects using React, Node.js, and Spring Boot",
+        "Built scalable backend with RESTful/GraphQL APIs, Redis, PostgreSQL, and AWS services",
+        "Optimized database performance and implemented CI/CD with CircleCI"
+      ]
+    },
+    {
+      "jobTitle": "Senior Programmer",
+      "company": "Cityline (HK) Limited",
+      "duration": "03/2019 – 07/2020",
+      "description": [
+        "Developed ticketing systems for Disney and Ocean Park using Angular and Spring Boot",
+        "Implemented database solutions with Redis and PostgreSQL in an Agile environment"
+      ]
+    },
+    {
+      "jobTitle": "System Developer",
+      "company": "ET NET Limited",
+      "duration": "09/2017 – 11/2018",
+      "description": [
+        "Built real-time stock quoting system with Angular and Spring Boot",
+        "Optimized performance for 50+ stocks using web sockets and responsive design"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc(HONS) in Information Technology",
+      "institution": "THE HONG KONG POLYTECHNIC UNIVERSITY",
+      "honors": "First Class Honors"
+    }
+  ],
+  "resumePath": "./resume.pdf"
+}
