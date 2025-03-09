@@ -74,7 +74,7 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundImage: 'url(/images/hero-bg.jpg)',
+          backgroundImage: 'url(./images/hero-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -154,7 +154,7 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
                   height: '100%',
                 },
               }}
-              src="/profilepic.png"
+              src="./profilepic.png"
               alt={name}
             />
 
