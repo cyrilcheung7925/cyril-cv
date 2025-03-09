@@ -239,7 +239,7 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 sx={{
-                  bgcolor: '#116DFF',
+                  background: 'linear-gradient(90deg, #64ffda 0%, #00b4d8 100%)',
                   color: 'white',
                   px: 4,
                   py: 1.5,
@@ -249,8 +249,8 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
                   fontWeight: 500,
                   boxShadow: '0 4px 12px rgba(17, 109, 255, 0.3)',
                   '&:hover': {
-                    bgcolor: '#4A90E2',
-                    boxShadow: '0 6px 16px rgba(17, 109, 255, 0.4)',
+                    backgroundColor: 'rgba(100, 255, 218, 0.25)',
+                    boxShadow: '0 0 15px rgba(100, 255, 218, 0.3)',
                   },
                 }}
               >
@@ -261,10 +261,8 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
         </Box>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
           animate={{ 
-            opacity: isVisible ? 1 : 0,
-            y: isVisible ? 0 : 20
+            opacity: isVisible ? 1 : 0.7,
           }}
           transition={{ duration: 0.3 }}
         >
@@ -279,8 +277,8 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
               bgcolor: 'rgb(24, 33, 83)',
               borderRadius: '0 0 8px 8px',
               boxShadow: '0 4px 20px rgba(0,0,0,0.2)',
-              visibility: isVisible ? 'visible' : 'hidden',
-              pointerEvents: isVisible ? 'auto' : 'none'
+              opacity: isVisible ? 1 : 0.7,
+              pointerEvents: 'auto'
             }}
           >
             {[

@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
   typography: {
-    fontFamily: '"Helvetica Neue", "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", Helvetica, Arial, sans-serif',
+    fontFamily: '"Montserrat", "sans-serif"',
     h1: {
       fontSize: '4rem',
       fontWeight: 300,
@@ -30,7 +30,9 @@ export const theme = createTheme({
       fontWeight: 300,
       lineHeight: 1.7,
       color: '#5E5E5E',
-      fontFamily: '"Helvetica Neue", "HelveticaNeueW01-45Ligh", Arial, sans-serif',
+      fontFamily: '"Montserrat", "sans-serif"',
+      fontOpticalSizing: 'auto',
+      fontStyle: 'normal'
     },
     body2: {
       fontSize: '0.95rem',
