@@ -1,11 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
-
-const MotionPaper = motion(Paper);
-const MotionTypography = motion(Typography);
 
 interface ProfessionalSummaryProps {
   summary: string;
