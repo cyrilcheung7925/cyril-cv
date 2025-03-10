@@ -261,10 +261,14 @@ export function Hero({ name, title, contact, shortSummary, resumePath }: HeroPro
         </Box>
 
         <motion.div
+          initial={{ opacity: 0 }}
           animate={{ 
             opacity: isVisible ? 1 : 0.7,
           }}
-          transition={{ duration: 0.3 }}
+          transition={{ 
+            duration: 0.3,
+            delay: 0.7
+          }}
         >
           <Stack 
             direction={{ xs: 'column', sm: 'row' }}
