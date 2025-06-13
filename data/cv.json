@@ -16,7 +16,8 @@
       "TypeScript",
       "CSS (SASS, SCSS)",
       "Shell Scripting",
-      "C/C++"
+      "C/C++",
+      "PHP"
     ],
     "frameworksLibraries": [
       "ReactJS",
@@ -49,11 +50,25 @@
   },
   "experience": [
     {
+      "jobTitle": "Freelance IT Developer",
+      "company": "Self-employed",
+      "duration": "08/2022 – Present",
+      "description": [
+          "Built custom school websites with responsive and intuitive interfaces tailored to educational environments",
+          "Collaborated with school staff and stakeholders to gather, analyze, and refine requirements",
+          "Delivered full-stack web solutions using ReactJS, PHP, and Java Spring Boot",
+          "Deployed applications using AWS services and automated workflows with GitHub Actions",
+          "Handled the full software development lifecycle including architecture, development, and post-launch support"
+      ]
+    },
+    {
       "jobTitle": "Software Programmer",
       "company": "Crypto.com",
       "duration": "12/2020 – 07/2022",
       "description": [
         "Led development of NFT Marketplace and Tax Projects using React, Node.js, and Spring Boot",
+        "Designed and implemented scalable microservices architecture using Spring Boot, Node.js, and NestJS",
+        "Conducted peer code reviews for a team of over 20 developers, ensuring high code quality and alignment with architectural standards",
         "Built scalable backend with RESTful/GraphQL APIs, Redis, PostgreSQL, and AWS services",
         "Optimized database performance and implemented CI/CD with CircleCI"
       ]
